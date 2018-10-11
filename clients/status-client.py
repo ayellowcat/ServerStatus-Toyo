@@ -1,14 +1,10 @@
-# -*- coding: utf-8 -*-
-# Update by : https://github.com/tenyue/ServerStatus
-# 支持Python版本：2.6 to 3.5
-# 支持操作系统： Linux, OSX, FreeBSD, OpenBSD and NetBSD, both 32-bit and 64-bit architectures
-
+﻿# -*- coding: utf-8 -*-
 
 SERVER = "127.0.0.1"
-PORT = 35601
+PORT = PORT
 USER = "USER" 
 PASSWORD = "USER_PASSWORD"
-INTERVAL = 1 #更新间隔
+INTERVAL = 1 #更新间隔，单位：秒
 
 
 import socket
